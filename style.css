@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: linear-gradient(to right,#004773,#54d542);
+}
+#btn{
+    height: 22rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#button1{
+    width: 12rem;
+    height: 3rem;
+    margin-right: .5rem;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(1, 1, 37);
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+#button2{
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    margin-left: .5rem;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+h2{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.copycode{
+    height: 7.5rem;
+    width: 90%;
+    max-width: 35rem;
+    border: 1px solid black;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+.copycode p{
+    margin-left: 1rem;
+}
+@media (max-width: 600px){
+    button{
+        width: 100%;  /* full width buttons */
+    }
+
+    #btn{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
